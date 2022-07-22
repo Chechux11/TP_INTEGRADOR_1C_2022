@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="normalize" href="./public/css/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/6296de83cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./public/css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    <link rel="icon" href="./public/images/Logo Kalplast.jpg" class="logo">
+    <title>TP integrador</title>
+</head>
+<body>
+    
+    <header>
+        <div>
+            <img src="./public/images/Logo Kalplast.jpg" alt="logo" width="80px" height="80px" class="logo">
+
+        </div>
+        
+        <nav class="nav-bar">
+            <ul>
+                <li> <a href="#first-section">Quiénes somos</a></li>
+                <li> <a href="#second-section">Productos</a></li>
+                <li> <a href="#third-section">El barrio</a></li>
+                <li> <a href="#fourth-section">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="first-section">
+        
+        <div class="first-section-right">
+            <img src="./public/images/Negocio.jpg" width="180px" height="260px">
+        </div>
+    
+        <div class="first-section-left"></div>
+            <h3 class="first-section-left-text"><br>
+                Somos un negocio familiar que hace más de 50 años está en la zona. De generación en generación, fuimos construyendo nuestro nombre con los mejores proveedores y productos para que encuentres todo lo que necesitás para decorar tu baño y hogar. 
+                
+            </h3>  
+        </div>
+
+    </section>
+    
+    <section class="second-section" id="second-section">
+
+        <div class="product">
+            <img src="./public/images/Teflon.jpg" width="200px" height="200px">
+            
+            <p class="product-description">
+                Cortinas de teflón, súper prácticas, lavables en lavarropas, y no necesitan planchado! Todos los diseños que quieras para combinar con tu baño
+            </p>
+        </div>
+        
+        <div class="product">
+            <img src="./public/images/Simpson Bath.jpg" width="200px" height="200px">
+        
+            <p class="product-description">
+                Y si te animás, podés elegir nuestros diseños de Los Simpsons! Valen para todo tipo de baños, no solo para los de los chicos
+            </p>
+        </div>
+        
+        <div class="product">
+            <img src="./public/images/ganchos.jpg" width="200px" height="200px">
+        
+            <p class="product-description">
+                Para terminar de decorar, que mejor que elegir los ganchos que más combinan con tu cortina y con tu baño. De metal y de resina, listos para que llamen la atención de todos
+            </p>
+        </div>
+        
+        <div class="product">
+            <img src="./public/images/felpudos.jpg" width="200px" height="200px">
+        
+            <p class="product-description">
+                También contamos con felpudos para entrar en tu casa, alfombras para salir de la bañera, y alfombras antideslizantes para dentro de tu bañera
+            </p>
+        </div>
+       
+        
+    </section>
+
+    <section class="third-section" id="third-section">
+        
+        <div class="third-section-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8402274361065!2d-58.49919824910573!3d-34.582909080369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6457ea00f8d%3A0x7786bf29677d145f!2sAv.%20Gral.%20Mosconi%202437%2C%20C1419EQD%20CABA!5e0!3m2!1ses-419!2sar!4v1657572739175!5m2!1ses-419!2sar" width="140" height="160" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="third-section-left">
+            <p>
+                Estamos en Villa Pueyrredón, un barrio tranquilo con mucha historia. <br> Nos podés encontrar en uno de sus mayores centros comerciales, la Avenida Mosconi esquina Artigas. Tenés varias líneas de transporte público para llegar, como el 110, 111, 90, 114, 107, 123, 108 y el tren Mitre. 
+            </p>
+        </div>
+
+    </section>
+
+    <section class="fourth-section" id="fourth-section">
+
+            <p class="titulo">Completá tus datos y nos contactaremos con vos</p>
+
+            <form action="https://formspree.io/f/xqknrkjv" method="post" class="form">
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" required id="nombre">
+                </p>
+                <p>    
+                    <label for="email">E mail</label>
+                    <input type="email" name="email" required id="email">
+                </p>    
+                <p>    
+                    <label for="direccion">Dirección</label>
+                    <input type="direccion" name="direccion" required id="direccion">
+                </p> 
+                <p>
+                    <label for="codigo postal">Código postal</label>
+                    <input type="number" name="codigo postal" required id="codigo postal">
+                </p>
+                <p>
+                    <label>Seleccione su localidad</label>
+                    <select name="localidad" required>
+                        <option value="Capital Federal">Capital Federal</option>
+                        <option value="Provincia de Buenos Aires">Provincia de Buenos Aires</option>
+                    </select>
+                </p>
+                <p>
+                    <button type="submit" class="button">Enviar</button>
+                </p>
+            </form>    
+        
+    </section>
+
+    <footer class="footer">
+        <div class="bottom">
+            <img src="./public/images/Logo Kalplast.jpg" alt="logo" width="80px" height="80px" class="logo">
+        </div>
+
+        <nav class="contact-bar">
+            <ul>
+                <li> <a href="https://www.instagram.com/kalplast.hogar/" target="_blank"><i class="fa-brands fa-2x fa-instagram"></i></a></li>
+                <li> <a href="https://www.facebook.com/ventaskalplast/" target="_blank"><i class="fa-brands fa-2x fa-facebook"></i></a></li>
+                <li> <a href="mailto:ventaskalplast@gmail.com" target="_blank"><i class="fa-solid fa-2x fa-envelope"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+
+
+

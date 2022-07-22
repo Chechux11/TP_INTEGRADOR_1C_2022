@@ -1,0 +1,240 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    padding: 10px;
+    border-radius: 80%;
+    margin: 10px;
+            
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    background-color: #FCF8E8 
+    
+}
+
+header{
+    display: flex;
+    background-color: #CEE5D0;
+    height: 150px; 
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.nav-bar{
+    display: none;
+}
+.nav-bar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+                
+}
+
+.fa-square-phone {
+    display: flex;
+    font-size: 2opx;
+    padding: 0px;
+   
+}
+li a {
+    text-decoration: none;
+    color: black;
+            
+}
+
+.first-section{
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+    justify-content: space-around;
+    
+        
+}
+
+.first-section-right {
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
+        
+}
+
+
+
+.first-section-left-text{
+    text-align: center;
+    align-self: center;  
+    margin: 10px;   
+    padding: 0px;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    height: 400px;
+    box-shadow: 10px -10px grey;
+    border: grey 2px solid;
+
+}
+
+.product-description {
+    padding-top: 20px;
+}
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+        
+}
+
+.third-section-right{
+    padding: 10px;
+    margin: 0px;
+    align-self: center;
+    
+}
+
+.third-section-left{
+    text-align: center;
+    align-self: center;  
+    margin: 10px;  
+    padding-top: 30px; 
+    padding: 0px;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+.fourth-section{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column
+    
+    
+}
+
+.titulo{
+    text-align: center;
+    margin: 20px;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+
+.form {
+    display: flex;
+    border: grey 2px solid;
+    flex-direction: column;
+    margin: 20px;
+    box-shadow: 10px -10px grey;
+    padding: 10px;
+    align-items: flex-start;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+.button{
+    font-size: large;
+}
+
+.titulo{
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+}
+
+#comentario{
+    height: 150px;
+}
+
+.footer{
+    display: flex;
+    height: 130px;
+    background-color: #CEE5D0;
+    align-items: center;
+    justify-content: space-around
+    
+}
+
+@keyframes bottom {
+    0% {opacity: 0%;}
+    25% {transform: translateY(-20px); opacity: 100%}
+    100% {opacity: 0%;}
+}
+
+.bottom {
+    animation-name: bottom;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    display: flex;
+    padding: 10px;
+    border-radius: 80%;
+    margin: 10px;
+    
+}
+
+
+
+.contact-bar ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    width: 300px;
+    justify-content: flex-end;
+    justify-content: space-around;
+    
+}
+
+.fa-instagram:hover {
+    color: #A25B5B
+}
+
+.fa-facebook:hover {
+    color: #A25B5B
+}
+
+.fa-envelope:hover {
+    color: #A25B5B
+}
+
+
+@media (max-width: 480px){
+    body {
+        width: 100vw;
+        
+    }
+}
+
+@media (min-width: 481px){
+    body{
+        font-size: 16px;
+    }
+}
