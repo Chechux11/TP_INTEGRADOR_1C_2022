@@ -55,6 +55,7 @@ li a {
 
 .first-section{
     display: flex;
+    flex-direction: column;
     padding: 20px;
     margin: 30px;
     justify-content: space-around;
@@ -111,6 +112,8 @@ li a {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding: 20px;
+    margin: 30px;
     margin-bottom: 100px;
         
 }
@@ -124,17 +127,21 @@ li a {
 
 .third-section-left{
     text-align: center;
-    align-self: center;  
+    align-self: center; 
+    justify-content: space-around; 
     margin: 10px;  
     padding-top: 30px; 
     padding: 0px;
     font-family: 'PT Sans', sans-serif;
+    border: red 2px solid;
     
 }
 
 .fourth-section{
     display: flex;
     align-content: center;
+    padding: 20px;
+    margin: 30px;
     justify-content: center;
     flex-direction: column
     
