@@ -9,13 +9,15 @@
     padding: 10px;
     border-radius: 80%;
     margin: 10px;
-            
+    
 }
+
 
 body {
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
-    background-color: #FCF8E8 
+    background-color: #FCF8E8
+     
     
 }
 
@@ -23,37 +25,16 @@ header{
     display: flex;
     background-color: #CEE5D0;
     height: 150px; 
+    width: 100vw;
     justify-content: space-around;
     align-items: center;
     
 }
 
-
-.nav-bar{
-    display: none;
+.navbar-expand-lg{
+    margin-right: 80px;
 }
 
-.nav-bar ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
-    width: 100%;
-                
-}
-
-.fa-square-phone {
-    display: flex;
-    font-size: 2opx;
-    padding: 0px;
-   
-}
-li a {
-    text-decoration: none;
-    color: black;
-            
-}
 
 .first-section{
     display: flex;
@@ -72,16 +53,13 @@ li a {
         
 }
 
-
-
 .first-section-left-text{
     text-align: center;
     align-self: center;  
     margin: 10px;   
     padding: 0px;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 14px;
-    
+    font-size: larger;
+        
 }
 
 .second-section{
@@ -118,7 +96,7 @@ li a {
     padding: 20px;
     margin: 30px;
     margin-bottom: 100px;
-        
+            
 }
 
 .third-section-right{
@@ -146,6 +124,7 @@ li a {
     margin: 30px;
     justify-content: center;
     flex-direction: column
+    
     
     
 }
@@ -191,6 +170,7 @@ li a {
     align-items: center;
     justify-content: space-around
     
+    
 }
 
 @keyframes bottom {
@@ -207,6 +187,7 @@ li a {
     padding: 10px;
     border-radius: 80%;
     margin: 10px;
+    color: black;
     
 }
 
@@ -222,14 +203,24 @@ li a {
     
 }
 
+.fa-instagram {
+    color: black;
+}
+
 .fa-instagram:hover {
     color: #A25B5B
 }
 
+.fa-facebook {
+    color: black;
+}
 .fa-facebook:hover {
     color: #A25B5B
 }
 
+.fa-envelope {
+    color: black;
+}
 .fa-envelope:hover {
     color: #A25B5B
 }
@@ -238,7 +229,9 @@ li a {
 @media (max-width: 480px){
     body {
         width: 100vw;
-        
+    }
+    .nav-bar{
+        display: none;
     }
 }
 
