@@ -12,6 +12,11 @@
     
 }
 
+html{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    background-color: #FCF8E8
+}
 
 body {
     font-family: 'PT Sans', sans-serif;
@@ -108,10 +113,11 @@ header{
     text-align: center;
     align-self: center; 
     justify-content: space-around; 
+    font-size: larger;
     margin: 10px;  
     padding-top: 30px; 
     padding: 0px;
-    font-family: 'PT Sans', sans-serif;
+    
         
 }
 
@@ -146,13 +152,9 @@ header{
 }
 
 .titulo{
-    font-size: 20px;
+    font-size: larger;
     text-align: center;
     height: 50px;
-}
-
-#comentario{
-    height: 150px;
 }
 
 .footer{
@@ -218,14 +220,14 @@ header{
 
 
 @media (max-width: 480px){
-    body {
+    html {
         font-size: 14px;
     }
     
 }
 
 @media (min-width: 481px){
-    body{
+    html{
         font-size: 16px;
     }
     
