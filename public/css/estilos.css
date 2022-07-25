@@ -34,6 +34,11 @@ header{
     
 }
 
+.justify-content-end li a{
+    color: #A25B5B;
+    font-size: larger;
+}
+
 .dropdown-menu li a{
     color: #A25B5B;
 }
@@ -223,12 +228,20 @@ header{
     html {
         font-size: 14px;
     }
+
+    .nav-bar{
+        display: none;
+    }
     
 }
 
 @media (min-width: 481px){
     html{
         font-size: 16px;
+    }
+
+    .dropdown{
+        display: none;
     }
     
 }
