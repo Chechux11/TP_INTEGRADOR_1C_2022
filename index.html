@@ -25,28 +25,17 @@
 
         </div>
 
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="#first-section">Quiénes somos</a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#second-section">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#third-section">El barrio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#fourth-section">Contacto</a>
-                  </li>
-                </ul>
-                </div>
-            </div>
-          </nav>
-
+        <div class="dropdown">
+            <button class="btn btn-secondary " type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><button class="dropdown-item" type="button"><a href="#first-section">Quiénes somos</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="#second-section">Productos</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="#third-section">El barrio</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="#fourth-section">Contacto</a></button></li>
+            </ul>
+        </div>
         
     </header>
 
@@ -97,8 +86,7 @@
                 También contamos con felpudos para entrar en tu casa, alfombras para salir de la bañera, y alfombras antideslizantes para dentro de tu bañera
             </p>
         </div>
-       
-        
+            
     </section>
 
     <section class="third-section" id="third-section">
